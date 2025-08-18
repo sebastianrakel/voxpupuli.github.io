@@ -44,7 +44,7 @@ companies sponsor our cloud/CI resources.
 <div class="row one-time">
   {% for sponsor in site.sponsors -%}
     {% if sponsor.status == "one-time" -%}
-    {% include sponsor-card.html width=3 vendor=sponsor %}
+    {% include sponsor-card.html width=4 vendor=sponsor %}
     {% endif -%}
   {% endfor -%}
 </div>
@@ -56,7 +56,7 @@ companies sponsor our cloud/CI resources.
 <div class="row former">
   {% for sponsor in site.sponsors -%}
     {% if sponsor.status == "former" -%}
-    {% include sponsor-card.html width=2 vendor=sponsor %}
+    {% include sponsor-card.html width=4 vendor=sponsor %}
     {% endif -%}
   {% endfor -%}
 </div>
